@@ -1,0 +1,113 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); /* Elegant gradient */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  /* Weather App Container */
+  .weather-app {
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px 20px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Header Styling */
+  .header h1 {
+    font-size: 28px;
+    margin: 0;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  
+  .header p {
+    font-size: 14px;
+    margin: 5px 0 20px;
+    opacity: 0.8;
+  }
+  
+  /* Search Bar Styling */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 10px;
+    background: #ffa726; /* Bright button color */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background: #fb8c00;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Weather Card Styling */
+  .weather-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .city-name {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .temperature {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffeb3b;
+  }
+  
+  .condition {
+    font-size: 18px;
+    margin: 10px 0;
+    text-transform: capitalize;
+    opacity: 0.9;
+  }
+  
+  .additional-info {
+    margin-top: 15px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  .additional-info p {
+    margin: 5px 0;
+  }
+  
